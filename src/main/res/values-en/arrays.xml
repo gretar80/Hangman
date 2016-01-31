@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="en">
+    <string-array name="listOrd">
+        <item>jump</item>
+        <item>tweet</item>
+        <item>commons</item>
+        <item>male</item>
+        <item>unframed</item>
+        <item>minimal</item>
+        <item>Autumn</item>
+        <item>cookies</item>
+        <item>adult</item>
+        <item>contrast</item>
+        <item>donkey</item>
+        <item>deeply</item>
+        <item>memory</item>
+        <item>Norway</item>
+        <item>shaking</item>
+        <item>tobacco</item>
+        <item>shout</item>
+        <item>sale</item>
+        <item>official</item>
+        <item>satellite</item>
+        <item>silly</item>
+        <item>toy</item>
+    </string-array>
+</resources>
+
+

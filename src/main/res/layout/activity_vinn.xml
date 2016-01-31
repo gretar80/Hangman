@@ -1,0 +1,107 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.s198586.hangman.Vinn"
+    android:background="#333333"
+    android:id="@+id/layoutSpill">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bildeView"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/label_ordet"
+    android:minWidth="350dp"
+    android:minHeight="30dp"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:layout_below="@+id/bildeView"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/gratulerer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#ff9600"
+        android:id="@+id/vinn"
+        android:layout_below="@+id/labelNoSpacing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vinnLabel"
+        android:id="@+id/labelVinn"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tapLabel"
+        android:id="@+id/labelTap"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelAntallVinn"
+        android:textColor="#fff"
+        android:gravity="left"
+        android:layout_below="@+id/labelVinn"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelAntallTap"
+        android:textColor="#fff"
+        android:gravity="right"
+        android:layout_below="@+id/labelTap"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelNoSpacing"
+        android:layout_below="@+id/bildeView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nyttSpill"
+        android:background="@drawable/spill_stor"
+        android:layout_below="@+id/vinn"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avslutte"
+        android:layout_below="@+id/nyttSpill"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/avslutte_stor" />
+
+</RelativeLayout>
+
+

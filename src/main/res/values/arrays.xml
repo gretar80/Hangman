@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="nb">
+    <string-array name="listOrd">
+
+        <item>vandre</item>
+        <item>ferdsel</item>
+        <item>motta</item>
+        <item>kropp</item>
+        <item>meter</item>
+        <item>ballong</item>
+        <item>avtale</item>
+        <item>motor</item>
+        <item>etikett</item>
+        <item>trenge</item>
+        <item>historie</item>
+        <item>matte</item>
+        <item>kjepp</item>
+        <item>triumf</item>
+        <item>katt</item>
+        <item>helbrede</item>
+        <item>suggesjon</item>
+        <item>investere</item>
+        <item>termin</item>
+        <item>tegn</item>
+        <item>foto</item>
+        <item>snor</item>
+        <item>velstand</item>
+        <item>bruke</item>
+        <item>appelsin</item>
+        <item>eksport</item>
+        <item>fløte</item>
+        <item>spesiell</item>
+        <item>reservere</item>
+        <item>svette</item>
+        <item>leilighet</item>
+        <item>likevekt</item>
+        <item>flott</item>
+        <item>reservert</item>
+        <item>filial</item>
+        <item>lommelykt</item>
+        <item>bygning</item>
+        <item>leppe</item>
+        <item>rekkevidde</item>
+        <item>fremstille</item>
+        <item>loppe</item>
+        <item>fredelig</item>
+        <item>tilføyelse</item>
+        <item>behagelig</item>
+        <item>tråd</item>
+        <item>regissør</item>
+        <item>værelse</item>
+
+
+    </string-array>
+
+</resources>

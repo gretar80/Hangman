@@ -1,0 +1,85 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="nb">
+    <string name="app_name">Hangman</string>
+    <string name="nytt_spill">Nytt Spill</string>
+    <string name="notater">Notater</string>
+    <string name="velg_sprak">English</string>
+    <string name="avslutte">Avslutte</string>
+    <string name="lukk">Lukk</string>
+    <string name="action_settings">Settings</string>
+    <string name="notaterTekst">Målet er a finne hvilke ord det er spørt om, ved å gjette på bokstaver. Hvis bokstaven ikke er i ordet, vises en del av kroppen på galgen. Spillet er over når hele kroppen hanger i galgen. Du får 7 sjanser til å gjette på riktig ord.</string>
+    <string name="tilbake">Tilbake</string>
+    <string name="gameover">Du tapte!</string>
+    <string name="gratulerer">Du vann!</string>
+    <string name="vinnLabel">Vinn:</string>
+    <string name="tapLabel">Tap:</string>
+    <string name="tomOrdlisteTittel">Ordliste tom</string>
+    <string name="tomOrdlisteTekst">Ordlisten er tom og den blir stokket om igjen</string>
+    <string name="ok">OK</string>
+    <string name="spillknappforklaring">Starter nytt spill</string>
+    <string name="notaterKnappForklaring">Regler og info</string>
+    <string name="sprakknappforklaring">Endre språk</string>
+    <string name="avslutteknappforklaring">Avslutte programmet</string>
+    <string name="title_activity_spille">Spille</string>
+    <string name="title_activity_notater">Notater</string>
+    <string name="title_activity_gameover">Tap</string>
+    <string name="title_activity_vinn">Vinn</string>
+    <string name="bokstav_a">A</string>
+    <string name="bokstav_b">B</string>
+    <string name="bokstav_c">C</string>
+    <string name="bokstav_d">D</string>
+    <string name="bokstav_e">E</string>
+    <string name="bokstav_f">F</string>
+    <string name="bokstav_g">G</string>
+    <string name="bokstav_h">H</string>
+    <string name="bokstav_i">I</string>
+    <string name="bokstav_j">J</string>
+    <string name="bokstav_k">K</string>
+    <string name="bokstav_l">L</string>
+    <string name="bokstav_m">M</string>
+    <string name="bokstav_n">N</string>
+    <string name="bokstav_o">O</string>
+    <string name="bokstav_p">P</string>
+    <string name="bokstav_q">Q</string>
+    <string name="bokstav_r">R</string>
+    <string name="bokstav_s">S</string>
+    <string name="bokstav_t">T</string>
+    <string name="bokstav_u">U</string>
+    <string name="bokstav_v">V</string>
+    <string name="bokstav_w">W</string>
+    <string name="bokstav_x">X</string>
+    <string name="bokstav_y">Y</string>
+    <string name="bokstav_z">Z</string>
+    <string name="bokstav_ae">Æ</string>
+    <string name="bokstav_oe">Ø</string>
+    <string name="bokstav_aa">Å</string>
+    <string-array name="bokstaver">
+        <item>@string/bokstav_a</item>
+        <item>@string/bokstav_b</item>
+        <item>@string/bokstav_c</item>
+        <item>@string/bokstav_d</item>
+        <item>@string/bokstav_e</item>
+        <item>@string/bokstav_f</item>
+        <item>@string/bokstav_g</item>
+        <item>@string/bokstav_h</item>
+        <item>@string/bokstav_i</item>
+        <item>@string/bokstav_j</item>
+        <item>@string/bokstav_k</item>
+        <item>@string/bokstav_l</item>
+        <item>@string/bokstav_m</item>
+        <item>@string/bokstav_n</item>
+        <item>@string/bokstav_o</item>
+        <item>@string/bokstav_p</item>
+        <item>@string/bokstav_q</item>
+        <item>@string/bokstav_r</item>
+        <item>@string/bokstav_s</item>
+        <item>@string/bokstav_t</item>
+        <item>@string/bokstav_u</item>
+        <item>@string/bokstav_v</item>
+        <item>@string/bokstav_w</item>
+        <item>@string/bokstav_x</item>
+        <item>@string/bokstav_y</item>
+        <item>@string/bokstav_z</item>
+    </string-array>
+</resources>

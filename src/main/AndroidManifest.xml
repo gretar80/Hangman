@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.s198586.hangman" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:label="Hangman">
+        <activity
+            android:name="Hangman" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notater"
+            android:label="@string/title_activity_notater" >
+        </activity>
+        <activity
+            android:name=".Gameover"
+            android:label="@string/title_activity_gameover" >
+        </activity>
+        <activity
+            android:name=".Vinn"
+            android:label="@string/title_activity_vinn" >
+        </activity>
+    </application>
+</manifest>

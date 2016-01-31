@@ -1,0 +1,36 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HangmanAktivitet" >
+
+    <item
+        android:title="@string/nytt_spill"
+        android:id="@+id/actionbar_nyttspill"
+        android:icon="@drawable/spill"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:title="@string/notater"
+        android:id="@+id/actionbar_notater"
+        android:icon="@drawable/notater"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:title="@string/velg_sprak"
+        android:id="@+id/actionbar_sprak"
+        android:icon="@drawable/sprak"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:title="@string/avslutte"
+        android:id="@+id/actionbar_avslutte"
+        android:icon="@drawable/avslutte"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+</menu>
